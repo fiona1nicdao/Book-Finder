@@ -15,6 +15,8 @@ The live deployment is here: add link
 
 ## Preview 
 - add at least 2-3 pictures
+![homepage](./images/homepage.png)
+
 
 # Questions 
 Please contact me direclty via the github [fiona1nicdao](<https://github.com/fiona1nicdao>) 
