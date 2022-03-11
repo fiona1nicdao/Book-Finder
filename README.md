@@ -8,14 +8,14 @@ This project is to refactor a fully functioning Google Books API search engine b
  This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Heroku
-The live deployment is here: add link 
+The live deployment is here: https://book-finder-nicdao.herokuapp.com 
 
 ## Technologies Used
 - Javascript, NodeJS, MongoDB, ExpressJS, CSS, ReactJS, GraphQL and Apollo Server
 
 ## Preview 
-- add at least 2-3 pictures
 ![homepage](./images/homepage.png)
+
 
 
 # Questions 

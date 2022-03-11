@@ -15,17 +15,19 @@ const typeDefs = gql `
 
     type Book {
         authors: [String]
-        description: String!
+        description: String
         bookId: ID
         image: String
         link: String
-        title: String!
+        title: String
     }
     input InputBook {
         authors:[String]
-        description:String!
-        title:String!
-        bookId:String!
+        description:String
+        title:String
+        image:String
+        link:String
+        bookId:String
     }
 
     type Query {
