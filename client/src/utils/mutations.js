@@ -21,10 +21,19 @@ export const ADD_USER = gql`
     }
 `;
 export const SAVE_BOOK = gql`
-    mutation saveBook($bookData: InputBook){
-        saveBook(newBook:$bookData)
-        {_id,username, email, savedBooks{
-            authors, description, title, bookId, image, link
+    mutation saveBook($bookData: InputBook!){
+        saveBook(book:$bookData)
+        {
+            _id,
+            username,
+            email,
+            savedBooks{
+                authors, 
+                description, 
+                title, 
+                bookId, 
+                image, 
+                link
         }}
     }
 `;
@@ -36,5 +45,3 @@ export const REMOVE_BOOK = gql`
         }}
     }
 `;
-
-// savedBooks??? should i add authors, description, bookId, title, image, link

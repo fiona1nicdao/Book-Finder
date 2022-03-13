@@ -14,7 +14,7 @@ The live deployment is here: https://book-finder-nicdao.herokuapp.com
 - Javascript, NodeJS, MongoDB, ExpressJS, CSS, ReactJS, GraphQL and Apollo Server
 
 ## Preview 
-![homepage](./images/homepage.png)
+![homepage](./client/src/images/homepage.png)
 
 
 
